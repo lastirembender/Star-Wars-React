@@ -1,30 +1,22 @@
-# Getting Started with Create React App
+# Screenshot
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![ss](https://github.com/lastirembender/Star-Wars-React/assets/69118634/41c1f232-0b18-4c6c-90bb-623a2cb404b3)
 
-## Available Scripts
+## Installation
 
-In the project directory, you can run:
+For required packages:
 
-### `npm start`
+# `npm install`
 
-Runs the app in the development mode.\
-Open [http://localhost:57003](http://localhost:57003) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Usage
 
-### `npm test`
+# `npm start`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Technologies
 
-### `npm run build`
+- React.js
+- Redux
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## API
+https://swapi.dev/
