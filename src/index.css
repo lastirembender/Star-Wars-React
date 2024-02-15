@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+@font-face {
+  font-family: "Star Jedi";
+  src: url("/public/starjout/Starjout.ttf") format("truetype");
+}
+
+#mainPage {
+  background-image: url("/public/starry-bg.jpg");
+}
+
+.content-wrapper {
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+#pageCard {
+  box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 1.5rem #2e67f8,
+    0 0 0.6rem #2e67f8, 0 0 1.5rem #2e67f8, inset 0 0 1rem #2e67f8 !important;
+  border: 0.2rem solid #fff;
+  border-radius: 2rem;
+  margin: 12px;
+  background-color: black;
+}
+
+.category {
+  color: #fff;
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #ffe81f,
+    0 0 82px #ffe81f, 0 0 92px #ffe81f, 0 0 102px #ffe81f, 0 0 151px #ffe81f;
+  text-decoration: underline;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.btn-sw {
+  background-color: black;
+  border: 0.1rem solid #ffe81f;
+  color: white;
+  border-radius: 1rem;
+  padding: 1rem 1.5rem;
+  margin: 0rem 0.5rem;
+  font-size: 14px;
+  width: 120px;
+}
+
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem; /* Adjust the gap size according to your design */
+}
+
+.CardFront,
+.CardBack {
+  box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 1.5rem #eb212e,
+    0 0 0.6rem #eb212e, 0 0 1.5rem #eb212e, inset 0 0 1rem #eb212e !important;
+  border: 0.2rem solid #fff;
+  border-radius: 2rem;
+}
